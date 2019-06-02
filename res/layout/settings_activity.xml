@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/Theme.AppCompat.Light" android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="100.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/settings" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="90.0" />
+    <Button android:id="@id/btnDisclaimer" android:background="@drawable/button_disclaimer" android:layout_width="150.0dip" android:layout_height="15.0dip" android:layout_margin="5.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" android:cropToPadding="false" android:layout_weight="5.0" />
+    <Button android:id="@id/btnAbout" android:background="@drawable/button_about" android:layout_width="150.0dip" android:layout_height="15.0dip" android:layout_margin="5.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" android:cropToPadding="false" android:layout_weight="5.0" />
+</LinearLayout>
